@@ -26,11 +26,9 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <Link href="/">
-            <a className={styles.card}>
-              <h3>Página 1 &rarr;</h3>
-            </a>
-          </Link>
+          <a href="/" className={styles.card}>
+            <h3>Página 1 &rarr;</h3>
+          </a>
         </div>
       </main>
 
