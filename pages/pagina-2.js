@@ -18,17 +18,17 @@ export default function Home() {
           width={300}
           height={300}
         />
-        <h1 className={styles.title}>Página 1</h1>
+        <h1 className={styles.title}>Página 2</h1>
 
         <p className={styles.description}>
           Estamos editando la página
-          <code className={styles.code}>pages/index.js</code>
+          <code className={styles.code}>pages/pagina-2.js</code>
         </p>
 
         <div className={styles.grid}>
-          <Link href="/pagina-2">
+          <Link href="/">
             <a className={styles.card}>
-              <h3>Página 2 &rarr;</h3>
+              <h3>Página 1 &rarr;</h3>
             </a>
           </Link>
         </div>
